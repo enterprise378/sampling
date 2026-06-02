@@ -40,30 +40,27 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to gather data for the identification of the effect of age on music taste. The causal direction under investigation is age -> music taste because it does not make sense to consider the causal impact of music taste on age, since age evolves deterministically.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is the entire population of a country. In this example, consider the country in question to be the United States. The sampling frame can be the respondents to the Panel Study of Income Dynamics (PSID) conducted by the University of Michigan. This frame is convenient for 2 reasons: 1) The PSID sample is selected to be nationally representative on observable demographics, and 2) The PSID is conducted as a panel, so respondents are revisited across sampling periods. This is particularly important for our research question, because we are interested in tracking within-individual changes in music taste at different ages during their lifetime. The sampling unit is an individual. The observational unit is a respondent of the PSID survey. The overall sampling strategy is to conduct stratified random sampling on observable demographics on the PSID sample once, so that our sample is representative of the PSID sample, which is in-turn nationally representative. Then, continue to track the sampled respondents over PSID waves over time, adding units to compensate for drop-outs when necessary.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. On the following scale of 1 to 7, please indicate how much you like pop music.
+2. On the following scale of 1 to 7, please indicate how much you like rock music.
+3. On the following scale of 1 to 7, please indicate how much you like hip hop music.
+4. On the following scale of 1 to 7, please indicate how much you like electronic dance music (EDM) music.
+5. On the following scale of 1 to 7, please indicate how much you like jazz music.
+6. On the following scale of 1 to 7, please indicate how much you like classical music.
+7. On the following scale of 1 to 7, please indicate how much you like blues music.
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +68,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Cross sectional sample conducted through stratified random sampling.
+2. Sample size: 80000
+3. Target population: All persons 15 years of age and older in Canada, excluding residents of the Yukon, Northwest Territories, and Nunavut, full-time residents of institutions, and residents of First Nations reserves
+4. Sampling frame: Respondents of the 2021 long-form Census of Population
+5. Survey mode(s): Interview
+6. Timeline: 2023-09-15 to 2024-03-30 (YYYY-mm-dd)
+7. Response rate: 40.9%
+8. Weights: Weights associated with a unit in the sample are calculated based on province and population groups (demographic groups)
+9. Data processing: Social Survey Processing Environment
+10. Cleaning, imputation, etc: Donor imputation
+11. Sources of error: Imperfect coverage, non-response, response errors, processing errors
+12. Limitations, known biases, etc: Bias due to coverage error (small), non-response bias
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=1526823
 ```
 
 ## Rubric
